@@ -1,9 +1,9 @@
 body{
 	background-image: url("images/salted_caramel_dripcake.jpg");
 	background-image: cover;
+	text-align: center;
 }
 h1{
 	font-family: Georgia, sans-serif;
 	color: #000000;
-	text-align: center;
 }
