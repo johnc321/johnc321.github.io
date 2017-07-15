@@ -6,7 +6,10 @@ body{
 h1{
 	font-family: Arial, sans-serif;
 	font-weight: bold;
-	text
+	text-transform: uppercase;
 	font-size: 200;
 	color: #000000;
+}
+h2{
+	font-family: 
 }
