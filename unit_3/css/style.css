@@ -3,5 +3,7 @@ body{
 	background-image: cover;
 }
 h1{
-	color: #58595B;
+	font-family: Georgia, sans-serif;
+	color: #000000;
+	text-align: center;
 }
