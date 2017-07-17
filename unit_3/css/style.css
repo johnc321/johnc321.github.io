@@ -13,7 +13,7 @@ h1{
 	color: black;
 }
 h2{
-	font-family: 
+	font-size: 30px;
 }
 
 p{
@@ -22,4 +22,8 @@ p{
 .paragraph{
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
+}
+
+#subheader{
+	font-family: 'Caveat Brush', cursive;
 }
