@@ -35,5 +35,6 @@ a{
 	padding: 20px
 }
 .gallery{
-	size: 300px;
+	height: 300px;
+    width: 300px;
 }
