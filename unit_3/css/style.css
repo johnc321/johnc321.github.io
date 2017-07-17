@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
 
 body{
 	background-image: url("images/salted_caramel_dripcake.jpg");
@@ -30,7 +30,7 @@ a{
 .menu{
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;	
-	font-weight: black;
+	font-weight: 900;
 	color: black;
 	padding: 20px
 }
