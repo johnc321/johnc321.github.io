@@ -23,7 +23,9 @@ h1{
 .paragraph{
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
-  	max-width:
+  	max-width: 87ch;
+  	text-align: left;
+  	padding-left: 50px;
 
 #subheader{
 	font-family: 'Caveat Brush', cursive;
