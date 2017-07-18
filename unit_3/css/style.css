@@ -24,9 +24,9 @@ h1{
 }
 
 .paragraph{
-		font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
-  	max-width: 87ch;
+  	max-width: 75ch;
   	text-align: left;
   	padding-left: 73px;
 }
