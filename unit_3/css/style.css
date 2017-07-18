@@ -3,7 +3,7 @@
 
 body{
 	background-image: url("/images/salted-caramel-dripcake-copy.jpg");
-	background-image: cover;
+	size: cover;
 	text-align: center;
 }
 h1{
@@ -54,5 +54,5 @@ ul{
 } 
 
 div{
-	color: gold;
+	color: black;
 }
