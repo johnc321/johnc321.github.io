@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
 
 body{
@@ -7,7 +7,7 @@ body{
 	text-align: center;
 }
 h1{
-	font-family: 'Caveat Brush', cursive;
+	font-family: 'Poiret One', cursive;
 	font-weight: bold;
 	font-size: 100px;
 	color: black;
@@ -32,7 +32,7 @@ h1{
 }
   	
 .subhead{
-	font-family: 'Caveat Brush', cursive;
+	ffont-family: 'Poiret One', cursive;
 	font-size: 40px;
 	text-align: left;
 	margin-left: 73px;
