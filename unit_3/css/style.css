@@ -23,6 +23,8 @@ h1{
 .paragraph{
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
+	overflow: hidden;
+  	max-width: 12ch;
 }
 
 #subheader{
