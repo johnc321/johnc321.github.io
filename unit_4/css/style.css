@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
 
-body{
-	background-image: url("images/salted-caramel-dripcake-copy.jpg");
-	background-size: cover;
-	text-align: center;
-}
 h1{
 	font-family: 'Poiret One', cursive;
 	font-size: 100px;
@@ -38,16 +33,21 @@ h1{
 }
 
 
-#nav{
+.nav{
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;	
 	font-weight: 400;
-	color: black;
-	padding: 20px
+	background-color: pink;
+	list-style: none;
+	padding: 100px;
 }
-.gallery{
+#gallery{
 	height: 300px;
     width: 300px;
+}
+
+.menu{
+	padding: 10px;
 }
 
 ul{
@@ -59,3 +59,8 @@ ul{
 div{
 	color: black;
 }
+ header{
+ 	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+ }
