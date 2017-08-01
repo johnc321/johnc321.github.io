@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Megrim|Roboto:300,500');
+@import url('https://fonts.googleapis.com/css?family=Megrim');
+
+header {
+    width: 0 auto;
+    height: 500px;
+    background-color: #f0eadc;
+    background-image: url("images/saltedcake.jpg");
+    background-size: cover;
+    padding: 0;
+}
+
+#gallery{
+	background-color: #e9e9e9;
+    padding: 50px;
+    margin: 5px;
+    width: 0 auto;
+    height: 0 auto;
+    display: block;
+    text-align: center;
+}
+article{
+    background-color: #f29db4;
+
+    padding: 80px;
+    margin: 0px;
+    font-style: bold;
+}
+footer{
+	background-color: #FF957E;
+    padding: 20px;
+}
+div{
+	background-color: #e9e9e9;
+    padding: 0px;
+}
+h1{
+    font-family: 'Megrim', cursive; 
+    text-align: center;
+    font-size: 5em;
+    line-height: 3em;
+}
+.storyh2{
+    font-family: 'Megrim', cursive;
+    font-weight: 300;
+    font-size: 2.5em;
+    line-height: 2em;
+    color: #FFF;
+}
+.previous{
+    font-family: 'Megrim', cursive;
+    font-weight: 300;
+    font-size: 2.5em;
+    line-height: 2em;
+    color: #000;
+}
+h3{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 1.5em; 
+}
+.story{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+ul{
+    font-family: Roboto, sans-serif;
+    font-weight: 300; 
+    font-size: 1em;
+}
+
+nav{
+    background-color: black;
+    padding: 0px;
+}
+
+nav a{
+    display: block;
+    padding: 10px 50px 10px 50px;
+    width:50;
+    height:20;
+    background-color: #000;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: .9em;
+    color: white;
+    text-decoration: none;
+    float:right;
+}
+
+a:hover{
+    background-color: #f36283;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+aside{
+    float: left;
+}
+#logo{
+    width: 20px;
+    height: 20px;
+}
+
+#image{
+    display:block;
+    width: 0 auto;
+    height: 200px;
+}
+
+.gallery{
+    margin: 5px;
+    width: 150px;
+    background-color: #e9e9e9;
+}
+
+#magni{
+    font-size: 2em;
+    line-height: 1em;
+    margin: 0px 0px 0px 50px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500; 
+    padding: 5px 0px 20px 0px;
+    text-align: center;
+    color: #000;
+}
+#firstpara{
+    line-height: 1.5em;
+    margin: 0px 350px 239px 350px;
+    padding: 20px px 0px 0px;
+    font-weight: 500; 
+    text-align: center;
+}
+#description{
+     background-color: #d5d2cd;
+}
+.cakes{
+    background-color: #fdeec5;
+    padding: 80px;
+}
+.caketitle{
+    font-family: 'Megrim', cursive;
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: 2em;
+    color: #000;
+}
+p{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #000;  
+}
+ul{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #000;  
+}
