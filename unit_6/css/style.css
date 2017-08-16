@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Megrim');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:700,900');
 * { margin:0; padding:0; box-sizing:border-box; }
+body{
+    font-size: 15px;
+}
+
 #headsection {
     background-color: #f0eadc;
     background-image: url("images/blue-drip_cake.jpg");
@@ -10,9 +14,9 @@
     padding: 50px;
 }
 #firstpara{
-    background-color: rgba(207,90,37,0.75);
-    padding: 20px;
-    width: 40em;
+    background-color: rgb(135,202,223);
+    padding: 1em;
+    width: 50%;
     margin-top: .5em;
     color: white;
 }
@@ -67,20 +71,14 @@ h1{
     font-size: 2.5em;
     line-height: 2em;
     color: #000;
-}
-.previous{
-    font-family: 'Megrim', cursive;
-    font-weight: 300;
-    font-size: 2.5em;
-    line-height: 2em;
-    color: #000;
+    clear: left;
 }
 h3{
     font-family: 'Megrim', cursive;
     font-weight: 300;
     font-size: 1.5em;
     line-height: 2em;
-    color: #f36283;
+    color: #000;
 }
 .story{
     font-family: Roboto, sans-serif;
@@ -94,6 +92,7 @@ ul{
     font-family: Roboto, sans-serif;
     font-weight: 300; 
     font-size: 1em;
+    text-decoration: none;
 }
 
 nav{
@@ -188,6 +187,24 @@ ul{
     margin: 50px 50px 0px 0px;
     width: 62%;
 }
+.previous{  
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-family: 'Megrim', cursive;
+    font-weight: 300;
+    font-size: 1em;
+    color: #000;
+}
+.cakecolumns{
+    background-color: #87cadf;
+    margin: 1em;
+    border-color: #fff;
+    padding: 2em;
+    float: left;
+    width: 20%;
+}
+
 .clearfix:after {
     visibility: hidden;
     display: block;
