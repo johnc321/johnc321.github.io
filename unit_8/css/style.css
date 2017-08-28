@@ -28,7 +28,6 @@ h4{
 #gallery{
 	background-color: #fff;
 	padding: 50px;
-	margin: ;
 }
 
 #gallery img{
@@ -40,10 +39,6 @@ footer{
 	background-color: #FF957E;
     padding: 20px;
     clear: left;
-}
-div{
-	background-color: #fff;
-    padding: 0px;
 }
 h1{
     font-family: 'Merriweather', serif; 
@@ -70,14 +65,14 @@ h2{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 2.5em;
-    line-height: 1em;
+    line-height: 2em;
     color: #000;
 }
 h3{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 1.5em;
-    line-height: 1em;
+    line-height: 2em;
     color: #000;
 }
 .story{
@@ -88,12 +83,13 @@ h3{
     color: #000;
 }
 
-ul{
+ul li{
     font-family: Roboto, sans-serif;
     font-weight: 300; 
-    font-size: .5em;
+    font-size: 1em;
     text-decoration: none;
     padding-top: 1em;
+    list-style: none;
 }
 
 nav{
@@ -159,34 +155,24 @@ p{
     line-height: 1.5em;
     color: #000;  
 }
-ul{
-    font-family: Roboto, sans-serif;
-    font-weight: 300;
-    font-size: 1em;
-    line-height: 1.5em;
-    color: #000; 
-    text-decoration: none;
-}
 #background{
     background-image: url("images/colourcupcakes.jpg");
     background-size: cover;
-    height: 800px; 
     clear: left;
+}
+.columns2{     
+    display: block;
+    padding-top: 1em;
+    margin: 0 auto;
+    width: 90%;
 }
 .events{
     background-color: rgba(255,255,255,.8);
     padding: 3em;
+    margin: 1em;
     float: left;
     width: 40%;
-}
-
-.container{
-    display: block;
-    clear: left; 
-    margin: 0 auto;
-    width: 80%;
-    min-height: 633px
-    background-color: rgba(255,255,255,.1);
+    min-height: 700px;
 }
 .ourstory{
     background-color: rgba(255,255,255,.1);
@@ -202,15 +188,10 @@ ul{
     background-size: cover;
     border: 0px black solid;
     padding: 4em 0;
-    height: 350px; 
+    height: 300px; 
     clear: left;    
     width: 100%;
     margin: 0 auto;
-}
-.columns2{     
-    width: 93%;
-    margin: 0 auto;
-    padding-top: 2em;
 }
 .previous{     
     width: 93%;
