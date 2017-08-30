@@ -8,7 +8,7 @@ body{
     background-color: rgb(255,255,255,.1);
 }
 
-#headsection {
+.headsection {
     background-image: url("images/blue-drip_cake.jpg");
     background-size: cover;
     padding: 50px;
@@ -18,22 +18,24 @@ body{
     padding: 1em;
     width: 50%;
     margin-top: .5em;
-    color: white;
 }
 h4{
     font-family: Roboto, sans-serif;
     font-weight: 300;
     color: #fff;
 }
+.size{
+    text-align: center;
+}
 #gallery{
 	background-color: #fff;
 	padding: 50px;
 }
-
-#gallery img{
+.gallery{
+    text-align: center;
+    display: inline-block;
     padding: 1em;
-    width: 25%;
-    float: left;
+    width: 20%;
 }
 footer{
 	background-color: #FFF;
@@ -66,14 +68,14 @@ h2{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 2.5em;
-    line-height: 2em;
+    padding-bottom: .5em;
     color: #000;
 }
 h3{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 1.5em;
-    line-height: 2em;
+    padding-bottom: .5em;
     color: #000;
 }
 .story{
@@ -152,8 +154,7 @@ aside{
 p{
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    font-size: 1em;
-    line-height: 1.5em;
+    padding-bottom: 1em;
     color: #000;  
 }
 #background{
@@ -163,49 +164,53 @@ p{
 }
 .columns2{     
     display: block;
+    text-align: center;
     padding-top: 1em;
     margin: 0 auto;
     width: 90%;
 }
 .events{
+    vertical-align: top;
+    display: inline-block;
     background-color: rgba(255,255,255,.8);
     padding: 3em;
     margin: 1em;
-    float: left;
     width: 40%;
     min-height: 700px;
+    text-align: left;
 }
 .ourstory{
     background-color: rgba(255,255,255,.1);
-    padding: 1em;
+    padding: 2em;
     width: 80%;
-    height: 15em;
     margin: 0 auto;
     color: white;
-
 }
 .wrapper {
     background-image: url("images/watercolour.jpg");
     background-size: cover;
-    border: 0px black solid;
-    padding: 4em 0;
-    height: 300px; 
-    clear: left;    
+    border: 0px black solid; 
     width: 100%;
     margin: 0 auto;
 }
-.previous{     
-    width: 93%;
+.previous{   
+    background-image: url("images/salted-caramel-dripcake.jpg");
+    background-size: cover;
+    display: block;  
     margin: 0 auto;
     padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
 }
 .cakecolumns{ 
+    vertical-align: top;
+    display: inline-block;
     background-color: #fae3f2;
-    float: left;
     width: 23%;
     min-height: 400px;
     padding: 2em;
     margin: .2em;
+    text-align: left;
 }
 
 .clearfix:after {
@@ -216,3 +221,80 @@ p{
     clear: both;
     height: 0;
 }
+@media only screen and (max-width:900px){
+@media (max-width: 900px){
+    .events{
+        width: 90%;
+        margin: 0;
+    }
+    .cakecolumns{ 
+        vertical-align: top;
+        display: inline-block;
+        background-color: #fae3f2;
+        width: 40%;
+        min-height: 350px;
+        padding: 2em;
+        margin: .2em;
+        text-align: left;
+    }
+    #gallery{
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 50px;
+    }
+    #gallery img{
+        padding: 1em;
+        width: 30%;
+    }
+    .firstpara{
+        background-color: rgb(135,202,223);
+        padding: 1em;
+        width: 80%;
+        margin-top: .5em;
+    }
+    }
+    }
+@media only screen and (max-width:800px){
+@media (max-width: 800px){
+    .cakecolumns{ 
+        vertical-align: top;
+        display: inline-block;
+        background-color: #fae3f2;
+        width: 90%;
+        min-height: 100px;
+        padding: 2em;
+        margin: .2em;
+        text-align: left;
+    }
+    nav a{
+        display: block;
+        padding: 15px 60px 15px 60px;
+        background-color: rgb(135,202,223);
+        font-family: Roboto, sans-serif;
+        text-align: center;
+        font-size: 1.1em;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:hover{
+        background-color: rgba(255,255,255,0.7);
+        color: #e17b63;
+    }
+    #gallery{
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 10px;
+    }
+    #gallery img{
+        padding: .5em;
+        width: 40%;
+    }
+    .firstpara{
+        background-color: rgb(135,202,223);
+        padding: 1em;
+        width: 90%;
+        margin-top: .5em;
+    }  
+    }
+    }
