@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Megrim|Roboto:300,500');
+@import url('https://fonts.googleapis.com/css?family=Megrim');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700,900');
+* { margin:0; padding:0; box-sizing:border-box; }
+body{
+    font-size: 15px;
+    background-color: rgb(255,255,255,.1);
+}
+
+.headsection {
+    background-image: url("images/blue-drip_cake.jpg");
+    background-size: cover;
+    padding: 50px;
+}
+.firstpara{
+    background-color: rgb(135,202,223);
+    padding: 1em;
+    width: 50%;
+    margin-top: .5em;
+}
+h4{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+.size{
+    text-align: center;
+}
+#gallery{
+	background-color: #fff;
+	padding: 50px;
+}
+.gallery{
+    text-align: center;
+    display: inline-block;
+    padding: 1em;
+    width: 20%;
+}
+footer{
+	background-color: #FFF;
+    padding: 20px;
+    clear: left;
+    text-align: center;
+}
+h1{
+    font-family: 'Merriweather', serif; 
+    text-align: left;
+    font-weight: 900;
+    font-size: 5em;
+    line-height: 1em;
+    padding-top: 250px;
+    color: #fff;
+    text-shadow: 2px 2px 10px #331b12;
+}
+#magni{
+    font-size: 2em;
+    line-height: 1em;
+    margin: 20px 0px 0px 0px;
+    font-family:  'Merriweather', serif;
+    font-weight: 700; 
+    padding: 5px 0px 20px 0px;
+    text-align: left;
+    color: #FFF;
+    text-shadow: 2px 2px 10px #331b12;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2.5em;
+    padding-bottom: .5em;
+    color: #000;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    padding-bottom: .5em;
+    color: #000;
+}
+.story{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #000;
+}
+
+ul li{
+    font-family: Roboto, sans-serif;
+    font-weight: 300; 
+    font-size: 1em;
+    text-decoration: none;
+    padding-top: 1em;
+    list-style: none;
+}
+
+nav{
+    /* background-color: black; */
+    float: right;
+}
+
+nav a{
+    display: inline-block;
+    padding: 15px 30px 15px 30px;
+    /* background-color: #000; */
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgba(255,255,255,0.7);
+    color: #e17b63;
+}
+
+aside{
+    float: left;
+    width: 20px;
+    height: 20px
+}
+#logo{
+    margin-top: 2em;
+    margin-left: 2em;
+    float: left;
+    width: 150px;
+}
+
+#image{
+    display:block;
+    width: 0 auto;
+    height: 180px;
+}
+
+#headsection{
+    height: 800px;
+}   
+
+#description{
+     background-color: #d5d2cd;
+     float: right;
+}
+
+.cakes{
+    background-color: #f6f6f6;
+    padding: 80px;
+}
+.caketitle{
+    background-color: #fff;
+    padding: 80px;
+}
+p{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    padding-bottom: 1em;
+    color: #000;  
+}
+#background{
+    background-image: url("images/colourcupcakes.jpg");
+    background-size: cover;
+    clear: left;
+}
+.columns2{     
+    display: block;
+    text-align: center;
+    padding-top: 1em;
+    margin: 0 auto;
+    width: 90%;
+}
+.events{
+    vertical-align: top;
+    display: inline-block;
+    background-color: rgba(255,255,255,.8);
+    padding: 3em;
+    margin: 1em;
+    width: 40%;
+    min-height: 700px;
+    text-align: left;
+}
+.ourstory{
+    background-color: rgba(255,255,255,.1);
+    padding: 2em;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+.wrapper {
+    background-image: url("images/watercolour.jpg");
+    background-size: cover;
+    border: 0px black solid; 
+    width: 100%;
+    margin: 0 auto;
+}
+.previous{   
+    background-image: url("images/salted-caramel-dripcake.jpg");
+    background-size: cover;
+    display: block;  
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+.cakecolumns{ 
+    vertical-align: top;
+    display: inline-block;
+    background-color: #fae3f2;
+    width: 23%;
+    min-height: 400px;
+    padding: 2em;
+    margin: .2em;
+    text-align: left;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+@media only screen and (max-width:900px){
+@media (max-width: 900px){
+    .events{
+        width: 90%;
+        margin: 0;
+    }
+    .cakecolumns{ 
+        vertical-align: top;
+        display: inline-block;
+        background-color: #fae3f2;
+        width: 40%;
+        min-height: 350px;
+        padding: 2em;
+        margin: .2em;
+        text-align: left;
+    }
+    #gallery{
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 50px;
+    }
+    #gallery img{
+        padding: 1em;
+        width: 30%;
+    }
+    .firstpara{
+        background-color: rgb(135,202,223);
+        padding: 1em;
+        width: 80%;
+        margin-top: .5em;
+    }
+    }
+    }
+@media only screen and (max-width:800px){
+@media (max-width: 800px){
+    .cakecolumns{ 
+        vertical-align: top;
+        display: inline-block;
+        background-color: #fae3f2;
+        width: 90%;
+        min-height: 100px;
+        padding: 2em;
+        margin: .2em;
+        text-align: left;
+    }
+    nav a{
+        display: block;
+        padding: 15px 60px 15px 60px;
+        background-color: rgb(135,202,223);
+        font-family: Roboto, sans-serif;
+        text-align: center;
+        font-size: 1.1em;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:hover{
+        background-color: rgba(255,255,255,0.7);
+        color: #e17b63;
+    }
+    #gallery{
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 10px;
+    }
+    #gallery img{
+        padding: .5em;
+        width: 40%;
+    }
+    .firstpara{
+        background-color: rgb(135,202,223);
+        padding: 1em;
+        width: 90%;
+        margin-top: .5em;
+    }  
+    }
+    }
